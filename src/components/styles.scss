@@ -1,0 +1,24 @@
+@use '../../../node_modules/swiper/swiper.scss';
+@use '../../../node_modules/swiper/modules/pagination/pagination.scss';
+@use '../../../node_modules/swiper/modules/navigation/navigation.scss';
+@use '../../../node_modules/swiper/modules/effect-coverflow/effect-coverflow.scss';
+@use '../../../node_modules/swiper/modules/mousewheel/mousewheel.scss';
+
+.swiper-style {
+  width: 80%;
+}
+.swiperSlide {
+  z-index: 10;
+}
+.swiperImage {
+  width: 170px;
+}
+.swiper-pagination-bullet {
+  background-color: rgb(210, 228, 243) !important;
+}
+// .swiper-button-prev::after {
+//   display: none
+// }
+// .swiper-button-next::after {
+//   display: none;
+// }
